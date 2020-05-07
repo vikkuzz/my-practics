@@ -72,6 +72,9 @@
         order: -1;
         flex-grow: 1;
     }
+    .title::before { 
+        margin-right: 30px;
+    }
     .header__nav--right {
         display: flex;
         flex-direction: row;
@@ -125,6 +128,9 @@
 }
 .header__nav--right button:not(:nth-last-child(2)) {
     margin-left: 16px;
+}
+.title::before { 
+    margin-right: 20px;
 }
 .divider {
     margin: 0 20px;
@@ -185,6 +191,9 @@ figure {
     display: flex;
     align-items: center;
     flex-grow: 1;
+}
+.title::before { 
+    margin-right: 12px;
 }
 .container__foto {
     margin: 16px 0;
